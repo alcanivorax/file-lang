@@ -1,0 +1,47 @@
+{
+  "name": "file-lang",
+  "version": "0.1.0",
+  "description": "Deterministically detect a programming language from a file path, name, or extension.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "language-detection",
+    "file-language",
+    "file-extension",
+    "developer-tools",
+    "static-analysis",
+    "repository-analysis",
+    "cli",
+    "tooling"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcanivorax/file-lang"
+  },
+  "author": "alcanivorax",
+  "license": "MIT",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
+  }
+}
