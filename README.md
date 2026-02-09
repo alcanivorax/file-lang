@@ -4,23 +4,6 @@
 
 `file-lang` is a tiny utility that maps file extensions and well-known filenames to **human‑readable language names**.
 
-No heuristics. No content parsing. No guessing.
-
----
-
-<br />
-
-## Why
-
-When building tools that analyze files, repositories, you end up rewriting the same logic again and again:
-
-- Extract extension from paths
-- Normalize weird inputs
-- Map extensions to language names
-- Handle unknowns safely
-
-`file-lang` exists so you never have to think about this again.
-
 ---
 
 <br />
@@ -89,22 +72,6 @@ Examples:
 
 <br />
 
-## Design Principles
-
-- Deterministic output
-- Extension-based only
-- Zero dependencies
-- Minimal public API
-- Predictable behavior
-
-If an extension is ambiguous or unclear, `file-lang` **does not guess**.
-
-Ambiguity resolves to `"Unknown"`.
-
----
-
-<br />
-
 ## Contributing
 
 Contributions are welcome, especially:
@@ -116,4 +83,3 @@ Guidelines:
 
 - Keep changes minimal
 - Follow existing naming conventions
-- Do not introduce heuristics or content-based detection
