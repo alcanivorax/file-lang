@@ -1,6 +1,6 @@
 export const languageMap: Record<string, string> = {
   // --- Bash ---
-  bash: "Bash",
+  bash: "Shell",
 
   // --- C ---
   c: "C",
@@ -58,6 +58,7 @@ export const languageMap: Record<string, string> = {
 
   // --- Markdown ---
   md: "Markdown",
+  markdown: "Markdown",
 
   // --- Objective-C ---
   m: "Objective-C",
@@ -89,13 +90,44 @@ export const languageMap: Record<string, string> = {
 
   // --- Shell ---
   sh: "Shell",
+  zsh: "Shell",
+  fish: "Shell",
+
+  // --- SQL ---
+  sql: "SQL",
 
   // --- SCSS ---
   scss: "SCSS",
 
+  // --- Svelte ---
+  svelte: "Svelte",
+
+  // --- Swift ---
+  swift: "Swift",
+
+  // --- TOML ---
+  toml: "TOML",
+
   // --- TypeScript ---
   ts: "TypeScript",
   tsx: "TypeScript",
+
+  // --- Vue ---
+  vue: "Vue",
+
+  // --- WebAssembly ---
+  wasm: "WebAssembly",
+  wat: "WebAssembly",
+
+  // --- XML ---
+  xml: "XML",
+
+  // --- YAML ---
+  yaml: "YAML",
+  yml: "YAML",
+
+  // --- Zig ---
+  zig: "Zig",
 
   // --- Text ---
   txt: "Text",
