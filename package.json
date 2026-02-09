@@ -1,6 +1,6 @@
 {
   "name": "file-lang",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Deterministically detect a programming language from a file path, name, or extension.",
   "type": "module",
   "main": "./dist/index.js",
